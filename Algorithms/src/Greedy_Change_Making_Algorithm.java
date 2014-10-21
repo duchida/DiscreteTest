@@ -13,6 +13,7 @@ public class Greedy_Change_Making_Algorithm {
 	/*  The Greedy Change Making Algorithm 6 (page 199) is "for making change using any finite set 
 	    of coins with denominations": quarter, dime, nickel, and penny.  "This algorithm leads to an
 	    optimal solution in the sense that it uses the fewest coins possible."  
+	    	
 	    	parameter: coinTypeArray- String array of coin types  e.g. { .25, .10, .05, .01 }
 	    	parameter: totalChangeAmount- String array of single value representing amount for coin conversion
 	    	           (this amount should be less than $1 practically, but will work with $1+ amounts)
